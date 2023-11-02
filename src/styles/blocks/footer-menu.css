@@ -1,0 +1,11 @@
+.footer-menu {
+}
+
+.footer-menu__item {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.footer-menu__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+input {
+  appearance: none;
+  width: 100%;
+  background-color: #fff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #2a254b;
+}
+
+.input {
+  background-color: #f9f9f9;
+  padding: 17px 32px;
+  border: transparent;
+}
+
+input:focus {
+  outline: 0;
+  box-shadow: inset 0 0 0 0.1rem #2a254b;
+}
+
+.input--darker {
+  background: rgb(255 255 255 / 15%);
+  color: white;
+}
+
+.input--darker:focus {
+  box-shadow: inset 0 0 0 0.1rem #f4f4f4;
+}

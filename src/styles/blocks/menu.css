@@ -1,0 +1,33 @@
+.menu {
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__link {
+  padding: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out;
+}
+
+.menu__link:hover {
+  background-color: #e7e7e7;
+}
+
+.menu__link--active:hover,
+.menu__link--active {
+  background-color: #2a254b;
+  color: white;
+}
+
+@media (width < 768px) {
+  .menu {
+    display: none;
+  }
+}

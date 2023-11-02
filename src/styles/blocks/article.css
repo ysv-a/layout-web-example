@@ -1,0 +1,9 @@
+.article {
+  color: red;
+  font-size: 12px;
+  display: grid;
+
+  &:hover {
+    color: green;
+  }
+}

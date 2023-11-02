@@ -1,0 +1,20 @@
+.bage {
+  color: white;
+  font-size: 14px;
+  padding: 6px 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bage--hot {
+  background-color: red;
+}
+
+.bage--sales {
+  background-color: #52be00;
+}
+
+.bage--rounded {
+  border-radius: 6px;
+}

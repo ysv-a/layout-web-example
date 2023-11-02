@@ -1,0 +1,17 @@
+.email-form {
+  width: 100%;
+}
+
+.email-form__innner {
+  display: flex;
+}
+
+.email-form__input {
+  flex-grow: 1;
+}
+
+@media (width < 576px) {
+  .email-form__innner {
+    flex-direction: column;
+  }
+}

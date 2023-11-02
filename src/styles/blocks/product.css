@@ -1,0 +1,56 @@
+.product {
+}
+
+.product__media {
+  position: relative;
+}
+
+.product__img {
+  height: 375px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product__body {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product__title {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.product__price {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.product__cost {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.product__price-old {
+  color: red;
+}
+
+.product__bage {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.product__bage--bootom {
+  top: auto;
+  bottom: 10px;
+}
+
+@media (width < 576px) {
+  .product__img {
+    height: 200px;
+  }
+}

@@ -1,0 +1,17 @@
+@import 'global/normalize.css';
+@import 'global/utility.css';
+@import 'blocks/button.css';
+@import 'blocks/input.css';
+@import 'blocks/header.css';
+@import 'blocks/menu.css';
+@import 'blocks/banner.css';
+@import 'blocks/differents.css';
+@import 'blocks/products-list.css';
+@import 'blocks/product.css';
+@import 'blocks/bage.css';
+@import 'blocks/join.css';
+@import 'blocks/email-form.css';
+@import 'blocks/preview-card.css';
+@import 'blocks/about-text.css';
+@import 'blocks/footer.css';
+@import 'blocks/footer-menu.css';

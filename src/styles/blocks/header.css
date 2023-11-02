@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(0 0 0 / 10%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  /* error by bem */
+  margin-right: 28px;
+  margin-left: 28px;
+}
+
+.header__logo {
+  font-size: 32px;
+}
+
+.header__right {
+  display: flex;
+  gap: 16px;
+}
+
+.header__hamburger {
+  display: none;
+}
+
+@media (width < 768px) {
+  .header {
+    margin: 0;
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+
+  .header__hamburger {
+    display: block;
+  }
+}
+
+@media (width < 576px) {
+  .header__left {
+    display: none;
+  }
+}

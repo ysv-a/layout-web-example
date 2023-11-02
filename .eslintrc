@@ -1,0 +1,16 @@
+{
+  "root": true,
+  // "globals": {
+  //   "Swiper": "readonly"
+  // },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "prettier"]
+}
